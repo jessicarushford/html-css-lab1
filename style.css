@@ -1,9 +1,8 @@
 /* resets */
 body,
 h1,
-h2,
+h4,
 p,
-button,
 ul,
 nav {
   margin: 0;
@@ -12,6 +11,7 @@ nav {
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #f9fafc;
+  color: #000;
 }
 
 .header-title {
@@ -63,17 +63,34 @@ h1 {
 
 footer {
   display: flex;
+  align-items: center;
   position: fixed;
   bottom: 0;
   background-color: rgba(247, 193, 162, 0.7);
   width: 100%;
 }
 
+.footer-chirpus {
+  text-align: left;
+  width: 25%;
+  margin-left: 15px;
+}
+
+.footer-list {
+  text-align: right;
+  width: 75%;
+  align-items: center;
+}
+
 .footer-items {
+  display: flex;
+  justify-content: flex-end;
   list-style: none;
 }
 
 .footer-items a {
   text-decoration: none;
   color: #69696a;
+  padding: 2px;
+  margin-right: 15px;
 }
