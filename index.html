@@ -13,6 +13,8 @@
   <body>
     <header>
         <h4 class="header-title">chirpus inc.</h4>
+    <!-- h1 because it is most important, even if size is smaller -->
+      </header>  
       <nav class="header-list">
         <ul class="header-items">
           <li>
@@ -24,13 +26,18 @@
           <li>
             <a href="#">Contact</a>
           </li>
+          <li>
+            <a class="hire-us" href="#">Hire Us</a>
+          </li>
         </ul>
       </nav>
-      <p class="button">Hire Us</p>
+      <!-- can keep Hire Us as an "a" element, not p -->
+      <!-- "a" is an inline element, therefore the background does not stretch the entire width. Add display: block; in CSS to take up the whole row -->
     </header>
     <main>
       <section class="main-info">
         <h1>chirpus inc.</h1>
+        <!-- chirpus inc. as just a "p" element -->
         <p class="lorem">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores
           quis commodi fuga enim nobis vel maxime quisquam impedit esse cumque
@@ -39,9 +46,15 @@
         </p>
         <p class="button">Call To Action</p>
       </section>
+      <section class="circle">
+        <span class="dot pink"></span>
+        <span class="dot yellow"></span>
+        <span class="dot purple"></span>
+      </section>
     </main>
     <footer>
         <h4 class="footer-chirpus">chirpis inc.</h4>
+        <!-- can keep Hire Us as an "a" element, not p -->
         <nav class="footer-list">
             <ul class="footer-items">
               <li>
